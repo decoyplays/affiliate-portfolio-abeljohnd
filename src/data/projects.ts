@@ -1,0 +1,48 @@
+import type { Project } from '@/types/project';
+
+export const projects: Project[] = [
+  {
+    id: 'ssd-review',
+    title: 'SSD Review',
+    category: 'Tech Products',
+    platform: 'TikTok Affiliate',
+    video: '/videos/ssd-review.mp4',
+    thumbnail: '/images/ssd.jpg',
+    description: 'A crisp, tactile review built around speed you can see.',
+    services: ['Video Editing', 'Product Presentation', 'Captions', 'Text Overlays'],
+    filters: ['TikTok Affiliate', 'Tech Products', 'Computer'],
+  },
+  {
+    id: 'computer-review',
+    title: 'ACASIS HB10Pro Review',
+    category: 'Computer',
+    platform: 'Shopee Affiliate',
+    video: '/videos/computer-review.mp4',
+    thumbnail: '/images/computer.jpg',
+    description: 'A clear path from feature list to confident checkout.',
+    services: ['Product Demonstration', 'Buying Guide', 'Short-Form Editing'],
+    filters: ['Shopee Affiliate', 'Computer', 'Tech Products'],
+  },
+  {
+    id: 'keyboard-review',
+    title: 'Keyboard Review',
+    category: 'Accessories',
+    platform: 'TikTok Affiliate',
+    video: '/videos/keyboard-review.mp4',
+    thumbnail: '/images/keyboard.jpg',
+    description: 'Close-ups, rhythm, and the sound of the object doing its job.',
+    services: ['Product Demonstration', 'Pacing', 'Captions', 'Text Overlays'],
+    filters: ['TikTok Affiliate', 'Accessories', 'Computer'],
+  },
+  {
+    id: 'type-c-connector',
+    title: 'Type-C Connector',
+    category: 'Accessories',
+    platform: 'Shopee Affiliate',
+    video: '/videos/type-c-connector.mp4',
+    thumbnail: '/images/type-c-connector.jpg',
+    description: 'A small accessory made legible in one useful, fast-moving story.',
+    services: ['Product Presentation', 'Short-Form Editing', 'Call to Action'],
+    filters: ['Shopee Affiliate', 'Accessories', 'Tech Products'],
+  },
+];
